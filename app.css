@@ -1,0 +1,154 @@
+html {
+    scroll-padding-top: 150px; /* height of sticky header */
+}
+
+body {
+    background-color: #fefae0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Main header */
+#header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/laptop-header.jpg);
+    background-position: center; 
+    color: white; 
+}
+
+#container {
+    padding: 50px 25px;
+    max-width: 1100px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* try fixed */
+.navbar-fixed-top {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+  }
+
+.intro {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#title {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.picture {
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+.profilePic {
+    width: 30%;
+    min-width: 150px;
+    max-width: 300px;
+    border-radius: 20%;
+}
+
+/* Navbar */
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100; 
+    justify-content: right;
+
+}
+
+#mainNavbar .nav-link {
+    color: white; 
+    letter-spacing: 2px;
+}
+
+
+#mainNavbar .nav-item {
+    display: flex;
+    justify-content: center;
+}
+
+#mainNavbar #navLinks {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 1.6rem;
+}
+
+/* TRANSITIONS */
+#mainNavbar .nav-link.scrolled {
+    color: black;
+    transition: background 500ms;
+}
+
+.navbar.scrolled {
+    background: #e9edc9;
+    transition: background 500ms;
+}
+
+/* main */
+main {
+    margin: 0 auto;
+    max-width: 1100px;
+    text-align: justify;
+    padding: 10px;
+    line-height: 30px;
+    position: relative; /* necessary to implement fixed */
+}
+
+.section-title {
+    color: #d4a373;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive behaviour */
+@media (min-width: 600px) {
+    #container {
+        flex-direction: row;
+    }
+
+    .intro {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #name {
+        font-size: 3rem;
+    }
+
+    #title {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
