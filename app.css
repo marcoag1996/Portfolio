@@ -129,6 +129,22 @@ main {
     margin-bottom: 0.5rem;
 }
 
+/* Image cards */
+#work-icon {
+    width: 50%;
+    max-width: 250px;
+    /* margin-left: auto; this can be used instead of mx-auto in boostrap class
+    margin-right: auto; */
+}
+
+.card-color {
+    background-color: #faedcd;
+}
+
+.carousel-height {
+    height: 300px;
+}
+
 /* Responsive behaviour */
 @media (min-width: 600px) {
     #container {
