@@ -1,0 +1,13 @@
+html {
+    scroll-padding-top: 150px; /* height of sticky header */
+}
+
+body {
+    /* background-color: #fefae0; */
+    background-color: #0B132B;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #5BC0BE;
+}
+

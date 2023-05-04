@@ -1,22 +1,9 @@
-html {
-    scroll-padding-top: 150px; /* height of sticky header */
-}
-
-body {
-    /* background-color: #fefae0; */
-    background-color: #0B132B;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    color: #5BC0BE;
-}
-
 
 /* Main header */
 #header {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(images/laptop-header.jpg);
+    background-image: url(../images/laptop-header.jpg);
     background-position: center; 
     color: #6FFFE9; 
 }
@@ -112,83 +99,6 @@ a:hover {
     transition: background 500ms;
 }
 
-/* main */
-main {
-    margin: 0 auto;
-    max-width: 1100px;
-    text-align: justify;
-    padding: 10px;
-    line-height: 30px;
-    position: relative; /* necessary to implement fixed */
-}
-
-.section-title {
-    color: #6FFFE9;
-    display: block;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    font-style: italic;
-    font-weight: bold;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-/* Image cards */
-.work-icon {
-    max-width: 250px;
-    margin: auto;
-    /* margin-left: auto; this can be used instead of mx-auto in boostrap class
-    margin-right: auto; */
-}
-
-.card-title {
-    color: #6FFFE9;
-}
-
-.card-text {
-    color: #5BC0BE;
-}
-
-li {
-    color: #5BC0BE;
-}
-
-.card {
-    /* background-color: #faedcd; */
-    background-color: #1C2541;
-}
-
-/* Carousel */
-.carousel-height {
-    height: 300px;
-}
-
-/* Skill grid */
-.skill-icon {
-    position: relative;
-    margin-bottom: 5px;
-    border-radius: 20px;
-    transition: transform 0.5s, box-shadow 0.5s;
-
-}
-
-.skill-picture {
-    width: 100%;
-    min-width: 50px;
-}
-
-.skill-title {
-    text-align: center;
-    margin: 0;
-    color: #f0ebd8;
-}
-
-.skill-icon:hover {
-    transform: translateY(-10px);
-    box-shadow: 0rem 1rem 0.4rem -0.4rem #6FFFE9;
-    cursor: pointer;
-}
-
 /* Responsive behaviour */
 @media (min-width: 600px) {
     #container {
@@ -208,7 +118,3 @@ li {
         font-size: 1.5rem;
     }
 }
-
-
-
-
